@@ -4,7 +4,7 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -13,16 +13,16 @@
 .page__info_image{
   width: 100%;
 }
-.aaa .more_inf {
+.more_inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa { 
+  .header { 
     text-align: center;
   }
 }
-.centered-main-page-element {
+.сontent {
   display: block;
   width: 500px;
   margin: 0 auto 0;
