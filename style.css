@@ -10,7 +10,7 @@
   display: block;
   text-align: right;
 }
-.page__info_image{
+.header__img{
   width: 100%;
 }
 .more_inf {
@@ -33,7 +33,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.content__task-wrap {
   display: flex;
 }
 .list {
@@ -123,12 +123,12 @@
 .list-item >    .content__task {
   width: 226px;
 }
-.content__button_image {
+.content__button_img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.content__button_image:hover {
+.content__button_img:hover {
   transform: rotateZ(0);
 }
 
