@@ -41,7 +41,7 @@
   padding: 0px;
 }
 .list__item, 
-.title {
+.content__title {
   list-style: none;
 }
 .content__task, 
@@ -62,8 +62,7 @@
   color: #3a3A3a;
 }
 /* Heading */
-.title,
-.content__new-task-label { 
+.content__title { 
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -89,7 +88,7 @@
 }
 
 /* New Task */
-.content__new-task-label { 
+.content__title_add { 
   display: block;
   margin: 0 0 20px;
 }
