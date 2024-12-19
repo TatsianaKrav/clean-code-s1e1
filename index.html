@@ -23,8 +23,8 @@
         <h3 class="content__title">Todo</h3>
         <ul class="list incomplete-tasks">
           <li class="list__item"> 
-            <input type="checkbox" class="content__task-checkbox">
-            <label class="content__task-label">Pay Bills</label>
+            <input type="checkbox" class="content__task-checkbox" id="new-task">
+            <label for="new-task" class="content__task-label">Pay Bills</label>
             <input type="text" class="content__task">
             <button class="content__button edit">Edit</button>
             <button class="content__button delete">
@@ -32,8 +32,8 @@
             </button>
           </li>
           <li class="list__item edit-mode"> 
-            <input type="checkbox" class="content__task-checkbox">
-            <label class="content__task-label content__task-label_edited">Go Shopping</label>
+            <input id="new-task-1" type="checkbox" class="content__task-checkbox">
+            <label for="new-task-1" class="content__task-label content__task-label_edited">Go Shopping</label>
             <input type="text" value="Go Shopping" class="content__task content__task_edited">
             <button class="content__button edit">Save</button>
             <button class="content__button delete">
